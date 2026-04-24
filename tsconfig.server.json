@@ -20,7 +20,9 @@
   "ts-node": {
     "compilerOptions": {
       "module": "commonjs"
-    }
+    },
+    "esm": true,
+    "experimentalEsm": true
   },
   "include": ["server/**/*"],
   "exclude": ["node_modules"]
